@@ -1,4 +1,4 @@
-# Printh-Ink_App
+# printh-ink-app
 
 Plataforma en la cual el usuario se registra para despues poder realizar un pedido para ser impreso en DTF enviando su archivo en pdf,
 al momento de realizar su pedido en automatico se mostrara la medida, el estatus del pedido(por pagar y pagado) y el costo 
@@ -6,7 +6,8 @@ que en un principio por default sera: $200 hasta que el administrador cambie el 
 Al subir la captura de su pago en Adelanto el estatus seguira en  "por pagar" pero si la sube a "Liquidacion" al administrador se le desbloqueara la
 opcion de cambiar el status a pagado una ves corroborado la totalidad del pago.
 
-El administrador en su panel podra ver la cantidad de clientes registrados y cambiar el precio de cada uno segun sea necesario
+El administrador en su panel podra ver las ordenes del dia asi como , la cantidad de clientes registrados y cambiar el precio de cada uno segun sea necesario, ademas 
+tendra una paginacion por dia de la semana para tener una mejor administracion en la cual podra descargar un excel con las ventas de ese dia.
 
 ## 🛠️ Tecnologías
 * **Lenguaje:** Python 3.13.1
@@ -15,8 +16,8 @@ El administrador en su panel podra ver la cantidad de clientes registrados y cam
 
 ## 📦 Instalación
 Para tener una copia local, sigue estos pasos:
-1. `git clone https://github.com/Brian2480/Printh-Ink_App.git`
-2. `cd Printh_App`
+1. `git clone https://github.com/Brian2480/printh-ink-app.git`
+2. `cd printh-ink-app`
 3. `pip install -r requirements.txt`
 
 ## 📸 Demo
